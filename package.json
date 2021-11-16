@@ -1,0 +1,31 @@
+{
+  "name": "react-esbuild-ssr",
+  "version": "1.0.0",
+  "description": "react react-dom esbuild ssr",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scripts/server.js",
+    "build": "cross-env NODE_ENV=development node scripts/build.js",
+    "build:prd": "cross-env NODE_ENV=production node scripts/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paul-Long/react-esbuild-ssr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paul-Long/react-esbuild-ssr/issues"
+  },
+  "homepage": "https://github.com/Paul-Long/react-esbuild-ssr#readme",
+  "dependencies": {
+    "@types/react": "^17.0.34",
+    "@types/react-dom": "^17.0.11",
+    "esbuild": "^0.13.13",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
